@@ -50,11 +50,16 @@
 }
 
 .hero figure img {
+  content: url('/assets/generated/jermarquis-cutout-v2.png');
   width: 100%;
   height: calc(100% - 10px);
   max-height: none;
   object-fit: contain;
   object-position: center bottom;
+}
+
+main.section.facial > img[src*="jermarquis-cutout"] {
+  content: url('/assets/generated/jermarquis-cutout-v2.png');
 }
 
 /* Give the home review its own finished treatment. */
